@@ -15,7 +15,7 @@ export default function App() {
                        <Users/> 
                     </div>
                 </Route>
-                <Route exact path="/home">
+                <Route exact path="/">
                     <Home/>
                 </Route>
                 <Route exact path="/topics">
@@ -40,7 +40,7 @@ function Home(){
             <nav>
                     <ul>
                         <li>
-                            <Link to="/home">Home</Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
                             <Link to="/about">About</Link>
@@ -62,7 +62,7 @@ function About(){
     return (
         <div>
             <h2>About</h2>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
         </div>
     )
 }
@@ -71,7 +71,7 @@ function Users(){
     return (
         <div>
             <h2>Users</h2>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
         </div>
     )
 }
@@ -80,7 +80,7 @@ function Topics(){
     return (
         <div>
             <h2>Topicss</h2>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
         </div>
     )
 }
