@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link, useHistory, useLocation, 
 export default function App() {
     return (
         <Router basename="/">
+            <Switch>
             <div>
                 <Route exact path="/about">
                     <About/>
@@ -21,6 +22,7 @@ export default function App() {
                     <Topics/>
                 </Route>
             </div>
+            </Switch>
         </Router>
     )
 }
