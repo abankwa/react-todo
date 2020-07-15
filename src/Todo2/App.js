@@ -35,7 +35,9 @@ class App extends Component {
                 "Content-type":"application/json"
             }
         }).then(res => res.json()).then(data => {
-            this.setState({todos: [...this.state.todos,data]})
+            let tmp = JSON.parse(JSON.stringify(data));
+            tmp.id = uuidv4();
+            this.setState({todos: [...this.state.todos,tmp]})
         })
         
         
