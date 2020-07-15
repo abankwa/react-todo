@@ -12,7 +12,6 @@ export default function App() {
                     <div>
                         <h3>booya</h3>
                         <Users/> 
-                       <Users/> 
                     </div>
                 </Route>
                 <Route exact path="/">
