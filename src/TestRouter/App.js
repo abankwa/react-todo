@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link, useHistory, useLocation, 
 
 export default function App() {
     return (
-        <Router>
+        <Router basename="/">
             <div>
                 <Route exact path="/about">
                     <About/>
