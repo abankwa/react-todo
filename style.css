@@ -1,0 +1,25 @@
+.todoItem{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    border: dashed 1px black;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.btn{
+    background-color: skyblue;
+}
+
+.addItem{
+    display:block;
+    flex-direction: row;
+    width:60%;
+    margin:auto;
+    justify-content: space-between;
+}
+.btnBase{
+    display:inline;
+    margin-right: 5px;
+}
