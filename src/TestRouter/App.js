@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link, useHistory, useLocation, 
 export default function App() {
     return (
         <Router basename="/">
+        {/*<Router basename="/react-todo">*/}
             <Switch>
             <div>
                 <Route exact path="/about">
