@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 //import Todo1 from './Todo1/App';
 //import Test from './Test1/Test';
-//import Todo2 from './Todo2/App';
+import Todo2 from './Todo2/App';
 import TestRouter from './TestRouter/App';
 
 
